@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp" >
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="1"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/text_id"
+        android:text="设备名称"
+        android:textSize="20dp" />
+    
+    <Button
+        android:id="@+id/del_btn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/icon_delete"
+        android:paddingBottom="10dp" />
+
+      <Button
+        android:id="@+id/changpw"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/del_btn"
+        android:textColor="#ffffff"
+        android:text="修改密码"
+        android:background="@drawable/btn_bg"
+        android:textSize="12dp" />
+      
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_green"
+        android:gravity="center"
+        android:text="设备管理"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    
+     <TextView
+        android:id="@+id/http"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="修改IP"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+       	android:layout_alignParentRight="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="当前设备" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tv_current"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_add_id"
+            android:hint="请在这里输入设备号码"
+            android:padding="5dp" />
+        
+        <EditText
+            android:id="@+id/et_add_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_add_id"
+            android:hint="请在这里输入设备密码"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_bg"
+            android:text="添加" />
+
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/add"
+            android:gravity="center"
+            android:text="添加设备"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/shebie_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:layout_marginTop="5dp"
+            android:listSelector="@color/gray"
+            android:paddingBottom="30dp" >
+        </ListView>
+        
+    </LinearLayout>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/bottom" />
+
+</RelativeLayout>

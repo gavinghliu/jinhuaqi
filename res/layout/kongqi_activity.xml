@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_main" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="55dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="空气指标"
+            android:textColor="@color/gray"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="113dp"
+                android:layout_height="113dp" >
+
+                <TextView
+                    android:id="@+id/zhiliang_keliwu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:text="优"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/keliwu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/kongqi_keliwu"
+                    android:gravity="center"
+                    android:paddingTop="12dp"
+                    android:text="8888"
+                    android:textColor="@color/kongqi_text"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="113dp"
+                android:layout_height="113dp"
+                android:layout_marginLeft="30dp" >
+
+                <TextView
+                    android:id="@+id/qiti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/kongqi_qiti"
+                    android:gravity="center"
+                    android:paddingTop="12dp"
+                    android:text="8888"
+                    android:textColor="@color/kongqi_text"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/zhiliang_qiti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:text="优"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="113dp"
+                android:layout_height="113dp" >
+
+                <TextView
+                    android:id="@+id/guangzhaodu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/kongqi_guangzhaodu"
+                    android:gravity="center"
+                    android:paddingTop="12dp"
+                    android:text="8888"
+                    android:textColor="@color/kongqi_text"
+                    android:textSize="20dp" />
+
+                <TextView
+                     android:id="@+id/zhiliang_guangzhaodu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:text="优"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="113dp"
+                android:layout_height="113dp"
+                android:layout_marginLeft="30dp" >
+
+                <TextView
+                    android:id="@+id/fulizi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/kongqi_fulizi"
+                    android:gravity="center"
+                    android:paddingTop="12dp"
+                    android:text="8888"
+                    android:textColor="@color/kongqi_text"
+                    android:textSize="20dp" />
+
+                <TextView
+                     android:id="@+id/zhiliang_fulizi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:text="优"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+            
+             <RelativeLayout
+                android:layout_width="113dp"
+                android:layout_height="113dp"
+                >
+
+                <TextView
+                    android:id="@+id/wendu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/kongqi_wendu"
+                    android:gravity="center"
+                    android:paddingTop="12dp"
+                    android:text="8888"
+                    android:textColor="@color/kongqi_text"
+                    android:textSize="20dp" />
+
+                <TextView
+                     android:id="@+id/zhiliang_wendu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:text="优"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            
+
+            <RelativeLayout
+                android:layout_width="113dp"
+                android:layout_height="113dp" 
+                android:layout_marginLeft="30dp" >
+
+                <TextView
+                    android:id="@+id/sidu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/kongqi_shidu"
+                    android:gravity="center"
+                    android:paddingTop="12dp"
+                    android:text="8888"
+                    android:textColor="@color/kongqi_text"
+                    android:textSize="20dp" />
+
+                <TextView
+                     android:id="@+id/zhiliang_sidu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:text="优"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/kongqi_line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kongqizhibiao_jindu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:paddingTop="2dp"
+                android:text="净化进度:"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                  android:id="@+id/jindu1"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="#33cc99" />
+
+            <ImageView
+                  android:id="@+id/jindu2"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="#33cc99" />
+
+            <ImageView
+                  android:id="@+id/jindu3"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="#33cc99" />
+
+            <TextView
+                android:id="@+id/jindu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="100%"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/bottom" />
+
+</RelativeLayout>

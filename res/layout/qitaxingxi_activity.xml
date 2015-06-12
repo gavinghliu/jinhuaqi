@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_green"
+        android:gravity="center"
+        android:text="其他信息"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/top"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/dingshi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="时间设置"
+                android:textColor="@color/gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@drawable/on" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.15"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="加湿"
+                    android:textColor="@color/gray"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/jiashi1"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#33cc99" />
+
+                <ImageView
+                    android:id="@+id/jiashi2"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#33cc99" />
+
+                <ImageView
+                    android:id="@+id/jiashi3"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#33cc99" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.15"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="音量"
+                    android:textColor="@color/gray"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/yingliang1"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#33cc99" />
+
+                <ImageView
+                    android:id="@+id/yingliang2"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#33cc99" />
+
+                <ImageView
+                    android:id="@+id/yingliang3"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#33cc99" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.15"
+                android:background="@color/gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:text="HEPA更换： L  R  T"
+                android:textColor="@color/gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.15"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_cpz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:text="CPZ更换：L  R"
+                android:textColor="@color/gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.15"
+                android:background="@color/gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:text="ESP清洁：L  R"
+                android:textColor="@color/gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.15"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_gonglv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:text="电机功率：8888"
+                android:textColor="@color/gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.15"
+                android:background="@color/gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:text="警告开启：ER88"
+                android:textColor="@color/gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.15"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:text="版本号："
+                android:textColor="@color/gray"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/bottom" />
+
+</RelativeLayout>
